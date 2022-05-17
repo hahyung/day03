@@ -26,16 +26,16 @@ public class Q1 {
 		money = input.nextInt();
 		
 		if (num == 1) {
-			price = 2000;
+			price = 1000;
 			menu = "사이다";
 		}else if (num == 2) {
-			price = 3000;
+			price = 800;
 			menu = "캔커피";
 		}else if (num == 3) {
-			price = 3500;
+			price = 1500;
 			menu = "콜라";
 		}else if (num == 4) {
-			price = 4000;
+			price = 500;
 			menu = "생수";
 		}else {
 			System.out.println("다시 입력해주세요");

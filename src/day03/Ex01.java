@@ -13,6 +13,7 @@ public class Ex01 {
 		System.out.println("다음 문장들 실행");
 		
 		//수를 입력 받아 5의 배수인지 아닌지 구분
+		System.out.println("수를 입력 받아 5의 배수인지 아닌지 구분");
 		Scanner input = new Scanner(System.in);
 		int num1;
 		
@@ -26,6 +27,7 @@ public class Ex01 {
 		}
 		
 		//수를 입력 받아 0보다 크고 100보다 작으면 정상, 아니면 비정상으로 출력
+		System.out.println("수를 입력 받아 0보다 크고 100보다 작으면 정상, 아니면 비정상으로 출력");
 		int num2;
 		
 		System.out.print("수 입력 : ");
@@ -38,7 +40,7 @@ public class Ex01 {
 		}
 		
 		//수를 입력 받아 짝수이면서 3의 배수이면 출력, 아니면
-		
+		System.out.println("수를 입력 받아 짝수이면서 3의 배수이면 출력, 아니면");
 		int num3;
 		
 		System.out.print("수 입력 : ");
@@ -49,10 +51,15 @@ public class Ex01 {
 		}else {
 			System.out.println("아님");
 		}
+		
 		//수를 입력 받아 짝수이면서 3의 배수이면 출력
 		//3의 배수가 아니며, 짝수만 해당하면 짝수, 또는 홀수
 		//짝수가 아니며, 3의 배수에만 해당하면 3의 배수, 아님
 		//해당되지 않으면 해당 되지 않음
+		System.out.println("수를 입력 받아 짝수이면서 3의 배수이면 출력");
+		System.out.println("3의 배수가 아니며, 짝수만 해당하면 짝수, 또는 홀수");
+		System.out.println("짝수가 아니며, 3의 배수에만 해당하면 3의 배수, 아님");
+		System.out.println("해당되지 않으면 해당 되지 않음");
 		
 		int num4;
 		
